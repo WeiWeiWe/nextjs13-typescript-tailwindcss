@@ -1,4 +1,5 @@
 import './globals.css';
+import MainNav from '../components/MainNav';
 
 export default function RootLayout({
   children,
@@ -9,8 +10,10 @@ export default function RootLayout({
     <html>
       <head />
       <body>
-        <h1>I am root layout</h1>
-        {children}
+        <div className="w-44">
+          <MainNav />
+        </div>
+        <div className="ml-44">{children}</div>
       </body>
     </html>
   );

@@ -1,0 +1,42 @@
+{
+  "electronics": [
+    {
+      "title": "electronics title one",
+      "subTitle": "electronics subTitle one",
+      "slug": "electronics slug one",
+      "thumbnail": ""
+    }
+  ],
+  "furniture": [
+    {
+      "title": "furniture title one",
+      "subTitle": "furniture subTitle one",
+      "slug": "furniture slug one",
+      "thumbnail": ""
+    }
+  ],
+  "books": [
+    {
+      "title": "books title one",
+      "subTitle": "books subTitle one",
+      "slug": "books slug one",
+      "thumbnail": ""
+    }
+  ],
+  "kitchen": [
+    {
+      "title": "kitchen title one",
+      "subTitle": "kitchen subTitle one",
+      "slug": "kitchen slug one",
+      "thumbnail": ""
+    }
+  ],
+  "apparel": [
+    {
+      "title": "apparel title one",
+      "subTitle": "apparel subTitle one",
+      "slug": "apparel slug one",
+      "thumbnail": ""
+    }
+  ]
+}

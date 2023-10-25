@@ -3,6 +3,8 @@ import fs from 'fs';
 import path from 'path';
 
 const handler: NextApiHandler = (req, res) => {
+  if (req.method !== 'GET') return res.status(404).send('Not Found!');
+
   const { name } = req.query as { name: string };
 
   try {

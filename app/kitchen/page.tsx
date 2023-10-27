@@ -1,9 +1,21 @@
 import { NextPage } from 'next';
+import ProductCategoryList from '@/components/ProductCategoryList';
 
 interface IProps {}
 
-const Kitchen: NextPage<IProps> = () => {
-  return <div>Kitchen page</div>;
+const Kitchen: NextPage<IProps> = async () => {
+  const { product_category } = await fetch(
+    'http://localhost:3000/api/category?name=kitchen'
+  ).then((res) => res.json());
+
+  return (
+    <div>
+      <ProductCategoryList
+        slugPrefix="kitchen"
+        categories={product_category}
+      />
+    </div>
+  );
 };
 
 export default Kitchen;

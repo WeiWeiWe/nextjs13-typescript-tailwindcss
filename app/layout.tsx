@@ -13,7 +13,7 @@ export default function RootLayout({
         <div className="w-44">
           <MainNav />
         </div>
-        <div className="ml-44">{children}</div>
+        <div className="ml-44 p-3">{children}</div>
       </body>
     </html>
   );

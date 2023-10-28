@@ -1,12 +1,11 @@
 import { NextPage } from 'next';
 import ProductCategoryList from '@/components/ProductCategoryList';
+import { loadCategories } from '@/utils/helper';
 
 interface IProps {}
 
 const Furniture: NextPage<IProps> = async () => {
-  const { product_category } = await fetch(
-    'http://localhost:3000/api/category?name=furniture'
-  ).then((res) => res.json());
+  const { product_category } = loadCategories('furniture');
 
   return (
     <div>

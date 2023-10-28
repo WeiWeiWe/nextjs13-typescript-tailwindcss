@@ -37,6 +37,24 @@
       "subTitle": "furniture subTitle one",
       "slug": "furniture slug one",
       "thumbnail": ""
+    },
+    {
+      "title": "furniture title two",
+      "subTitle": "furniture subTitle two",
+      "slug": "furniture slug two",
+      "thumbnail": ""
+    },
+    {
+      "title": "furniture title three",
+      "subTitle": "furniture subTitle three",
+      "slug": "furniture slug three",
+      "thumbnail": ""
+    },
+    {
+      "title": "furniture title four",
+      "subTitle": "furniture subTitle four",
+      "slug": "furniture slug four",
+      "thumbnail": ""
     }
   ],
   "books": [
@@ -45,6 +63,18 @@
       "subTitle": "books subTitle one",
       "slug": "books slug one",
       "thumbnail": ""
+    },
+    {
+      "title": "books title two",
+      "subTitle": "books subTitle two",
+      "slug": "books slug two",
+      "thumbnail": ""
+    },
+    {
+      "title": "books title three",
+      "subTitle": "books subTitle three",
+      "slug": "books slug three",
+      "thumbnail": ""
     }
   ],
   "kitchen": [
@@ -52,6 +82,12 @@
       "title": "kitchen title one",
       "subTitle": "kitchen subTitle one",
       "slug": "kitchen slug one",
+      "thumbnail": ""
+    },
+    {
+      "title": "kitchen title two",
+      "subTitle": "kitchen subTitle two",
+      "slug": "kitchen slug two",
       "thumbnail": ""
     }
   ],

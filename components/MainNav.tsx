@@ -16,7 +16,7 @@ const MainNav: FC<IProps> = () => {
         {Array.isArray(navItems) &&
           navItems.map((item) => {
             return (
-              <Link className="block" key={item?.slug} href={item?.slug}>
+              <Link className="block" key={item?.slug} href={`/${item?.slug}`}>
                 {item?.title || ''}
               </Link>
             );

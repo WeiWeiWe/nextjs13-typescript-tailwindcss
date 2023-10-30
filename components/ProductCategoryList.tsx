@@ -5,7 +5,7 @@ import { FC } from 'react';
 type ProductCategoryType = {
   slug: string;
   title: string;
-  subtitle: string;
+  subTitle: string;
   thumbnail: string;
 }[];
 
@@ -37,7 +37,7 @@ const ProductCategoryList: FC<IProps> = ({ categories, slugPrefix }) => {
             </div>
             <div className="mt-3">
               <h1 className="text-lg font-semibold">{item?.title}</h1>
-              <p>{item?.subtitle}</p>
+              <p>{item?.subTitle}</p>
             </div>
           </Link>
         );

@@ -1,7 +1,7 @@
-'use client';
-
 import { NextPage } from 'next';
-import { useEffect } from 'react';
+import HeadClient from '@/components/HeadClient';
+import ProductCategoryList from '@/components/ProductCategoryList';
+import { loadProductList } from '@/utils/helper';
 
 interface IProps {
   params: { subCategory: string };
@@ -9,12 +9,17 @@ interface IProps {
 
 const ElectronicsSubCategory: NextPage<IProps> = ({ params }) => {
   const { subCategory } = params;
+  const { products } = loadProductList(subCategory);
 
-  useEffect(() => {
-    document.title = subCategory;
-  }, []);
-
-  return <div>ElectronicsSubCategory: {subCategory}</div>;
+  return (
+    <HeadClient subCategory={subCategory}>
+      ElectronicsSubCategory: {subCategory}
+      <ProductCategoryList
+        categories={products}
+        slugPrefix={'electrinics/' + subCategory}
+      />
+    </HeadClient>
+  );
 };
 
 export default ElectronicsSubCategory;

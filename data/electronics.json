@@ -1,0 +1,42 @@
+{
+  "computer-accessories": [
+    {
+      "title": "computer-accessories title one",
+      "thumbnail": "",
+      "slug": "computer-accessories slug one",
+      "rating": 4.5
+    }
+  ],
+  "mobile-phones": [
+    {
+      "title": "mobile-phones title one",
+      "thumbnail": "",
+      "slug": "mobile-phones slug one",
+      "rating": 4.0
+    }
+  ],
+  "personal-computers": [
+    {
+      "title": "personal-computers title one",
+      "thumbnail": "",
+      "slug": "personal-computers slug one",
+      "rating": 4.2
+    }
+  ],
+  "film-gears": [
+    {
+      "title": "film-gears title one",
+      "thumbnail": "",
+      "slug": "film-gears slug one",
+      "rating": 4.7
+    }
+  ],
+  "lights": [
+    {
+      "title": "lights title one",
+      "thumbnail": "",
+      "slug": "lights slug one",
+      "rating": 4.9
+    }
+  ]
+}

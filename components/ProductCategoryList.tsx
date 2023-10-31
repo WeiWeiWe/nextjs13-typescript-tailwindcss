@@ -1,13 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { FC } from 'react';
-
-type ProductCategoryType = {
-  slug: string;
-  title: string;
-  subTitle: string;
-  thumbnail: string;
-}[];
+import { ProductCategoryType } from '@/utils/helper';
 
 interface IProps {
   categories: ProductCategoryType;
@@ -38,6 +32,11 @@ const ProductCategoryList: FC<IProps> = ({ categories, slugPrefix }) => {
             <div className="mt-3">
               <h1 className="text-lg font-semibold">{item?.title}</h1>
               <p>{item?.subTitle}</p>
+              {item?.rating ? (
+                <p className="p-2 bg-yellow-400 rounded-full font-semibold inline-block">
+                  {item.rating}
+                </p>
+              ) : null}
             </div>
           </Link>
         );

@@ -1,33 +1,33 @@
 {
   "electronics": [
     {
-      "title": "electronics title one",
+      "title": "Computer Accessories",
       "subTitle": "electronics subTitle one",
-      "slug": "electronics slug one",
+      "slug": "computer-accessories",
       "thumbnail": ""
     },
     {
-      "title": "electronics title two",
+      "title": "Mobile Phones",
       "subTitle": "electronics subTitle two",
-      "slug": "electronics slug two",
+      "slug": "mobile-phones",
       "thumbnail": ""
     },
     {
-      "title": "electronics title three",
+      "title": "Personal Computers",
       "subTitle": "electronics subTitle three",
-      "slug": "electronics slug three",
+      "slug": "personal-computers",
       "thumbnail": ""
     },
     {
-      "title": "electronics title four",
+      "title": "Film Gears",
       "subTitle": "electronics subTitle four",
-      "slug": "electronics slug four",
+      "slug": "film-gears",
       "thumbnail": ""
     },
     {
-      "title": "electronics title five",
+      "title": "Lights",
       "subTitle": "electronics subTitle five",
-      "slug": "electronics slug five",
+      "slug": "lights",
       "thumbnail": ""
     }
   ],

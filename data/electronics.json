@@ -3,7 +3,7 @@
     {
       "title": "computer-accessories title one",
       "thumbnail": "",
-      "slug": "computer-accessories slug one",
+      "slug": "ca-slugOne",
       "rating": 4.5
     }
   ],
@@ -11,7 +11,7 @@
     {
       "title": "mobile-phones title one",
       "thumbnail": "",
-      "slug": "mobile-phones slug one",
+      "slug": "mp-slugOne",
       "rating": 4.0
     }
   ],
@@ -19,7 +19,7 @@
     {
       "title": "personal-computers title one",
       "thumbnail": "",
-      "slug": "personal-computers slug one",
+      "slug": "pc-slugOne",
       "rating": 4.2
     }
   ],
@@ -27,7 +27,7 @@
     {
       "title": "film-gears title one",
       "thumbnail": "",
-      "slug": "film-gears slug one",
+      "slug": "fg-slugOne",
       "rating": 4.7
     }
   ],
@@ -35,7 +35,7 @@
     {
       "title": "lights title one",
       "thumbnail": "",
-      "slug": "lights slug one",
+      "slug": "l-slugOne",
       "rating": 4.9
     }
   ]

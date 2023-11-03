@@ -1,11 +1,22 @@
 import { NextPage } from 'next';
 import HeadClient from '@/components/HeadClient';
 import ProductCategoryList from '@/components/ProductCategoryList';
-import { loadProductList } from '@/utils/helper';
+import { loadCategories, loadProductList } from '@/utils/helper';
 
 interface IProps {
   params: { subCategory: string };
 }
+
+export const generateStaticParams = () => {
+  const { product_category } = loadCategories('electronics');
+  const slugs = product_category?.map(({ slug }) => {
+    return {
+      subCategory: slug,
+    };
+  });
+
+  return slugs;
+};
 
 const ElectronicsSubCategory: NextPage<IProps> = ({ params }) => {
   const { subCategory } = params;
@@ -14,10 +25,7 @@ const ElectronicsSubCategory: NextPage<IProps> = ({ params }) => {
   return (
     <HeadClient subCategory={subCategory}>
       ElectronicsSubCategory: {subCategory}
-      <ProductCategoryList
-        categories={products}
-        slugPrefix={'electrinics/' + subCategory}
-      />
+      <ProductCategoryList categories={products} slugPrefix={subCategory} />
     </HeadClient>
   );
 };
